@@ -1,0 +1,19 @@
+cd ใช้ในการเข้าถึง โฟลเดอร์
+mkdir rmdir เช่น  mkdir Test สร้างโฟลเดอร์ชื่อ Test
+ls แสดง รายการไฟล์  ls -a แสดงรายการไฟล์ทั้งหมด
+touch test.txt สร้างไฟล์ ขึ้นมา เป็นไฟล์เปล่า
+code test.txt  เปิดเข้าไปแก้ไขไฟล์  test.txt
+git init เริ่มต้น การใช้งาน git ในโฟลเดอร์
+git status เอาไว้ดูสถานะไฟล์ที่  Staging แล้ว
+git add | git add .  ใช้สำหรับส่งไฟล์ขึ้นไป staging เช่น   git add test.txt
+git log เอาไว้ตรวจสอบว่า ใครทำอะไรไปตอนไหนบ้าง
+git commit -m "Seccess" commit ไฟล์ขึ้นไปยัง repository แต่ยังไม่ push ขึ้น github
+git checkout  ย้อนกลับไปยังก่อนการแก้ไข
+git diff <File Name> หาข้อเปรียบเทียบจากการแก้ไขไฟล์
+git branch -M main ทำให้้ สาขาเป็น main
+git push -u origin main ส่งไฟล์จากเครื่องไป Repository Github
+git remote add origin <URL ID> สร้างการเชื่อมต่อ Git to Github
+git rm --cached -r ลบไฟล์ทั้งหมด ออกจาก Staging area
+git clone <URL> โคลนงานที่อยู่ใน Github ลงเครื่องตัวเอง
+git branch <Name of branch> สร้างสาขาใหม่
+git merge <Name of branch> ส่งคำขอรวมสาขา
